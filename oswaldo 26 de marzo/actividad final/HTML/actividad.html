@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/JS/jquery-3.7.1.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+        $(".encabezado").click(function(){
+            $(".formu").removeClass("ocultar").fadeToggle(500)
+            $(".ocultar").removeClass("ocultar")
+            $("#mas").addClass("ocultar")
+
+        })
+    })
+    $(document).ready(function(){
+            $(".encabezado img").click(function(){
+                $(".encabezado img").toggle("ocultar");
+            });
+        });
+</script>
+<body>
+    <form action="#" class="formu">
+        <H2>REGISTRARSE</H2>
+        <label for="nombre">NOMBRE/USUARIO</label>
+        <input type="nombre" name="user" id="nombre" class="box" required>
+        
+        <label for="correo">CONTRASEÑA</label>
+        <input type="correo" name="pass" id="correo" class="box" required>
+
+        <input type="submit" name="enviar" id="enviar">
+    </form>
+<div class="encabezado">
+    <img src="/IMG/feliz.jpg" alt="" id="mas">
+    <img src="/IMG/triste.jpg" alt="" class="ocultar">
+</div>
+</body>
+</html>
