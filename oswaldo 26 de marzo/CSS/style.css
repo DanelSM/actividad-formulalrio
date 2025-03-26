@@ -1,0 +1,45 @@
+body{
+    background: #401802;
+}
+/* img{
+    width: 50%;
+    height: 50vh;
+    background: greenyellow;
+    padding: 5px;
+}
+.uno{
+    width: 50%;
+    height: 50vh;
+    
+}
+.dos{
+    background-color: greenyellow;
+    border-radius: 50%;
+} */
+
+.formulario{
+    background-color: #AF1E1E;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+        width: 420px;
+        display: flex;
+        flex-direction: column; 
+        margin: auto;       
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        border-radius: 50px;
+        gap: 10%;
+        margin-top: 30%;
+}
+img{
+    width: 10%;
+    gap: 50%;
+    height: 20vh;
+    align-items: center;
+}
+.box{
+    border-radius: 50px;
+    gap: 10px;
+    background-color: rosybrown;
+}
